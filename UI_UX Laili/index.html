@@ -3,278 +3,274 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Laili Kamalia Portfolio</title>
-    <!-- css -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio - Laili Kamalia</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!-- Navigation Section -->
-    <section class="nav-section">
-      <div class="home-icon">
-        <a href="hero">🏠</a>
-      </div>
+    <nav class="navbar">
+      <a href="#home" class="home-icon"><i class="fas fa-home"></i></a>
       <div class="nav-links">
-        <a href="#about" class="nav-link">ABOUT ME</a>
-        <a href="#value" class="nav-link">MY VALUE</a>
-        <a href="#social" class="nav-link">SOCIAL MEDIA</a>
-        <a href="#project" class="nav-link">MY PROJECT</a>
-        <a href="#why" class="nav-link">WHY</a>
-        <a href="#contact" class="nav-link">CONTACT ME</a>
+        <a href="#about" class="nav-btn">ABOUT ME</a>
+        <a href="#value" class="nav-btn">MY VALUE</a>
+        <a href="#social" class="nav-btn">SOCIAL MEDIA</a>
+        <a href="#project" class="nav-btn">MY PROJECT</a>
+        <a href="#why" class="nav-btn">WHY</a>
+        <a href="#contact" class="nav-btn">CONTACT ME</a>
       </div>
-    </section>
+    </nav>
 
-    <!-- Hero Section -->
-    <section class="hero-section" id="hero">
-      <div class="photo-grid">
-        <div class="photo-item">
-          <img src="img/1.jpeg" alt="Portfolio photo" />
-        </div>
-        <div class="photo-item">
-          <img src="img/2.jpeg" alt="Portfolio photo" />
-        </div>
-        <div class="photo-item">
-          <img src="img/1.jpeg" alt="Portfolio photo" />
-        </div>
-        <div class="photo-item">
-          <img src="img/2.jpeg" alt="Portfolio photo" />
-        </div>
+    <section class="hero" id="home">
+      <div class="hero-gallery">
+        <img src="img/1.jpeg" alt="Portfolio Photo" />
+        <img src="img/2.jpeg" alt="Portfolio Photo" />
+        <img src="img/1.jpeg" alt="Portfolio Photo" />
+        <img src="img/2.jpeg" alt="Portfolio Photo" />
       </div>
-
-      <div class="portfolio-header">
-        <h1 class="portfolio-title">PORTOFOLIO</h1>
-        <div class="portfolio-info">
-          <h2 class="portfolio-name">SOCIAL MEDIA MANAJER NAME</h2>
-          <p class="portfolio-role">SOCIAL MEDIA CONTENT CREATOR</p>
-          <p class="portfolio-tagline">
-            See how I can add value to your business
+      <div class="hero-content">
+        <h1>PORTOFOLIO</h1>
+        <div class="hero-text">
+          <h2>SOCIAL MEDIA MANAJER NAME</h2>
+          <p>SOCIAL MEDIA CONTENT CREATOR</p>
+          <p class="value-text">
+            <a href="#about" class="value-link">
+                See how I can add value to your business
+                <span class="arrow">→</span>
+            </a>
           </p>
-          <p class="arrow">→</p>
         </div>
       </div>
     </section>
 
-    <!-- About Me Section -->
-    <section class="about-section" id="about">
-      <div class="about-photo">
-        <img src="img/about.jpeg" alt="Profile photo" />
-      </div>
-      <div class="about-content">
-        <div class="about-title">
-          <span class="icon">👤</span>
-          <span>ABOUT ME</span>
-        </div>
-        <p class="about-text">
-          Hy guys! Saya Laili Kamalia, seorang mahasiswi Bisnis Digital di FEB
-          UNM yang selalu tertarik dengan dunia digital dan inovasi. Lahir di
-          Gorontalo, tumbuh dan tinggal di Makassar, dengan darah keturunan Jawa
-          yang tetap melekat dalam diri saya. Saya memiliki perspektif yang luas
-          dalam melihat perkembangan bisnis di era digital.
-        </p>
-        <p class="about-text">
-          Bagi saya, bisnis digital bukan hanya tentang teknologi, tetapi juga
-          tentang kreativitas, strategi, dan dampak yang bisa diciptakan. Saya
-          percaya bahwa dunia digital membuka banyak peluang bagi siapa saja
-          yang ingin berinovasi dan berkembang.
-        </p>
-        <p class="about-motto">
-          Motto: "Menyukai langit harus pula menerima segala bentuk cuacanya,
-          meskipun badai, sama seperti menyukaimu dengan segala bentuk
-          konsekuensinya."
-        </p>
-      </div>
-    </section>
-    <!-- Value Section -->
-    <section class="value-section" id="value">
-      <div class="value-container">
-        <div class="value-left">
-          <h2 class="section-title">VISION</h2>
-          <p class="vision-text">
-            Menjadi platform portofolio yang tidak hanya menampilkan karya,
-            tetapi juga mencerminkan identitas, kreativitas, dan profesionalisme
-            dalam dunia digital.
-          </p>
-
-          <div class="terminal-box">
-            <img src="img/about.jpeg" alt="" class="terminal-content">
-            >
+    <section class="about" id="about">
+      <div class="about-container">
+        <div class="about-image-container">
+          <div class="about-image">
+            <img src="img/about.jpeg" alt="Laili Kamalia" />
+          </div>
+          <div class="motto">
+            <p>
+              "Menyukai langit harus pula menerima segala bentuk cuacanya,
+              meskipun badai. sama seperti menyukaimu dengan segala bentuk
+              konsekuensinya."
+            </p>
           </div>
         </div>
-
-        <div class="value-right">
-          <div class="value-button">VALUE</div>
-
-          <div class="terminal-box code-box">
-            <img src="img/sosial1.jpeg" alt="" class="terminal-content">
+        <div class="about-content">
+          <div class="about-title">
+            <i class="far fa-user"></i>
+            <h2>ABOUT ME</h2>
           </div>
-
-          <h2 class="section-title mission-title">MISSION</h2>
-          <ul class="mission-list">
-            <li>
-              Membangun Personal Branding – Menyajikan portofolio yang kuat dan
-              autentik untuk mencerminkan keahlian dan karakter secara
-              profesional.
-            </li>
-            <li>
-              Menampilkan Kreativitas & Inovasi – Menghadirkan desain yang
-              menarik, interaktif, dan responsif agar pengunjung mendapatkan
-              pengalaman terbaik.
-            </li>
-            <li>
-              Menghubungkan & Berkolaborasi – Membuka peluang networking dengan
-              profesional, klien, atau perusahaan yang mencari talenta digital.
-            </li>
-            <li>
-              Terus Berkembang & Beradaptasi – Selalu mengikuti tren teknologi
-              dan desain terbaru untuk memastikan portofolio tetap relevan dan
-              menarik.
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Social Media Section -->
-    <section class="social-media-section" id="social">
-      <div class="social-media-container">
-        <div class="social-media-title">
-          <h2>SOCIAL</h2>
-          <h2>MEDIA</h2>
-          <h2>POST</h2>
-        </div>
-
-        <div class="social-media-gallery">
-          <div class="gallery-item">
-            <img src="img/sosial1.jpeg" alt="Traditional costume photo" />
-            
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/sosial2.jpeg"
-              alt="Traditional costume photo"
-            />
-            
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/sosial3.jpeg"
-              alt="Traditional costume photo"
-            />
-           
-          </div>
-          
+          <div class="about-text">
+            <p>
+              Hy guys! Saya Laili Kamalia, seorang mahasiswi Bisnis Digital di
+              FEB UNM yang selalu tertarik dengan dunia digital dan inovasi.
+              Lahir di Gorontalo, tumbuh dan tinggal di Makassar, dengan darah
+              keturunan Jawa yang tetap melekat dalam diri saya. Saya memiliki
+              perspektif yang luas dalam melihat perkembangan bisnis di era
+              digital.
+            </p>
+            <p>
+              Bagi saya, bisnis digital bukan hanya tentang teknologi, tetapi
+              juga tentang kreativitas, strategi, dan dampak yang bisa
+              diciptakan. Saya percaya bahwa dunia digital membuka banyak
+              peluang bagi siapa saja yang ingin berinovasi dan berkembang.
+            </p>
           </div>
         </div>
       </div>
     </section>
-    <!-- Project Section -->
-    <section class="project-section" id="project">
-        <div class="project-header">
-            <h2 class="project-title">MY PROJECT</h2>
-          </div>
-          
-          <!-- Initial Project Row -->
-          <div class="initial-project-row">
-            <div class="initial-project-item">
-              <img src="img/team digital marketing.png" alt="Team Digital Marketing">
-              <h3 class="initial-project-name">Team Digital Merketing</h3>
+    <section class="value" id="value">
+        <div class="value-container">
+            <h2 class="value-title">VALUE</h2>
+            <div class="value-content">
+                <div class="vision-section">
+                    <h2>VISION</h2>
+                    <p>Menjadi platform portofolio yang tidak hanya menampilkan karya, tetapi juga mencerminkan identitas, kreativitas, dan profesionalisme dalam dunia digital.</p>
+                    <div class="code-preview">
+                        <img src="img/code2.png" alt="Code Preview">
+                    </div>
+                </div>
+                <div class="mission-section">
+                    <div class="code-preview">
+                        <img src="img/code1.png" alt="Code Preview">
+                    </div>
+                    <div class="mission-title">
+                        <h2>MISSION</h2>
+                    </div>
+                    <ul>
+                        <li>Membangun Personal Branding – Menyajikan portofolio yang kuat dan autentik untuk mencerminkan keahlian dan karakter secara profesional</li>
+                        <li>Menampilkan Kreativitas & Inovasi – Menghadirkan desain yang menarik, interaktif, dan responsif agar pengunjung mendapatkan pengalaman terbaik</li>
+                        <li>Menghubungkan & Berkolaborasi – Membuka peluang networking dengan profesional, klien, atau perusahaan yang mencari talenta digital</li>
+                        <li>Terus Berkembang & Beradaptasi – Selalu mengikuti tren teknologi dan desain terbaru untuk memastikan portofolio tetap relevan dan menarik</li>
+                    </ul>
+                </div>
             </div>
-            <div class="initial-project-item">
-              <img src="img/columinating.jpeg" alt="Cluminating Event SPACE">
-              <h3 class="initial-project-name">Cluminating Event SPACE</h3>
-            </div>
-          </div>
-          
-          <!-- Category Buttons -->
-          <div class="categories">
-            <div class="category-button">Template</div>
-            <div class="category-button">Community</div>
-            <div class="category-button">Business</div>
-          </div>
-          
-          <!-- Three Column Content -->
-          <div class="content-container">
-            <!-- Template Column -->
-            <div class="column">
-              <div class="template-section">
-                <div class="template-tabs">
-                  <div class="template-tab">Metalic</div>
-                  <div class="template-tab">Minimalist</div>
-                  <div class="template-tab">Elegant</div>
-                  <div class="template-tab">Simple</div>
-                </div>
-                <div class="template-grid">
-                  <div class="template-item">
-                    <img src="/api/placeholder/400/500" alt="Metalic template example">
-                  </div>
-                  <div class="template-item">
-                    <img src="/api/placeholder/400/500" alt="Minimalist template example">
-                  </div>
-                  <div class="template-item">
-                    <img src="/api/placeholder/400/500" alt="Elegant template example">
-                  </div>
-                  <div class="template-item">
-                    <img src="/api/placeholder/400/500" alt="Simple template example">
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <!-- Community Column -->
-            <div class="column">
-              <div class="community-section">
-                <div class="community-item">
-                  <img src="img/inspire.jpeg" alt="Cluminating Event INSPIRE">
-                  <div class="community-caption">Cluminating Event INSPIRE</div>
-                </div>
-                <div class="community-item">
-                  <img src="img/breakfasting.jpeg" alt="Breakfasting and Social Service">
-                  <div class="community-caption">Breakfasting and Social Service</div>
-                </div>
-                <div class="community-item">
-                  <img src="img/goes.jpeg" alt="Class A Goes To Malino">
-                  <div class="community-caption">Class A Goes To Malino</div>
-                </div>
-              </div>
-            </div>
-            
-            <!-- Business Column -->
-            <div class="column">
-              <div class="business-section">
-                <div class="business-item">
-                  <img src="img/duck.jpeg" alt="Duck merchandise business">
-                </div>
-                <div class="business-item">
-                  <img src="img/bisnis porto2.png" alt="Business portfolio screenshot">
-                </div>
-                <div class="business-item">
-                  <img src="img/group.jpeg" alt="Group business photo">
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
     </section>
-
-    <section class="why-section" id="why">
+    <section class="social" id="social">
+        <div class="social-container">
+            <div class="social-title">
+                <h2>SOCIAL</h2>
+                <h2>MEDIA</h2>
+                <h2>POST</h2>
+            </div>
+            <div class="social-gallery">
+                <div class="social-image">
+                    <img src="img/sosial1.jpeg" alt="Social Media Post">
+                    <div class="like-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+                <div class="social-image">
+                    <img src="img/sosial2.jpeg" alt="Social Media Post">
+                    <div class="like-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+                <div class="social-image">
+                    <img src="img/sosial3.jpeg" alt="Social Media Post">
+                    <div class="like-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <div class="project-container">
+            <div class="project-title">
+                <h2>MY PROJECT</h2>
+            </div>
+            <div class="project-content">
+                <div class="project-item">
+                    <img src="img/team digital marketing.png" alt="Team Digital Marketing">
+                    <h3>Team Digital Marketing</h3>
+                </div>
+                <div class="project-item">
+                    <img src="img/columinating.jpeg" alt="Cluminating Event SPACE">
+                    <h3>Cluminating Event SPACE</h3>
+                </div>
+            </div>
+            <div class="project-categories">
+                <div class="category">
+                    <h3>Template</h3>
+                    <div class="template-grid">
+                        <div class="template-tabs">
+                            <span>Metalic</span>
+                            <span>Minimalist</span>
+                            <span>Elegant</span>
+                            <span>Simple</span>
+                        </div>
+                        <div class="template-images">
+                            <div class="template-row">
+                                <div class="template-image-container">
+                                    <img src="img/tamplate1.png" alt="Metalic Template">
+                                    <div class="template-overlay">Metalic Template Design</div>
+                                </div>
+                                <div class="template-image-container">
+                                    <img src="img/tamplate2.png" alt="Minimalist Template">
+                                    <div class="template-overlay">Minimalist Template Design</div>
+                                </div>
+                            </div>
+                            <div class="template-row">
+                                <div class="template-image-container">
+                                    <img src="img/tamplate3.png" alt="Elegant Template">
+                                    <div class="template-overlay">Elegant Template Design</div>
+                                </div>
+                                <div class="template-image-container">
+                                    <img src="img/tamplate4.png" alt="Simple Template">
+                                    <div class="template-overlay">Simple Template Design</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="category">
+                    <h3>Community</h3>
+                    <div class="community-grid">
+                        <div class="template-image-container">
+                            <img src="img/inspire.jpeg" alt="Cluminating Event INSPIRE">
+                            <div class="template-overlay">Cluminating Event INSPIRE</div>
+                        </div>
+                        <div class="template-image-container">
+                            <img src="img/breakfasting.jpeg" alt="Breakfasting and Social Service">
+                            <div class="template-overlay">Breakfasting and Social Service</div>
+                        </div>
+                        <div class="template-image-container">
+                            <img src="img/goes.jpeg" alt="Class A Goes To Malino">
+                            <div class="template-overlay">Class A Goes To Malino</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="category">
+                    <h3>Business</h3>
+                    <div class="business-grid">
+                        <div class="template-image-container">
+                            <img src="img/duck.jpeg" alt="Business Project">
+                            <div class="template-overlay">Duck Business Project</div>
+                        </div>
+                        <div class="template-image-container">
+                            <img src="img/bisnis porto2.png" alt="Business Project">
+                            <div class="template-overlay">Business Portfolio Project</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why" id="why">
         <div class="why-container">
-          <div class="why-header">
-            <h2 class="why-title">WHY</h2>
-          </div>
-          
-          <div class="why-content">
-            <div class="why-text">
-              <h3 class="why-subtitle">Junior Web Developer</h3>
-              <p class="why-description">
-                Ini adalah ruang diskusi bagi para junior web developer yang ingin memahami alasan di balik setiap langkah dalam perjalanan mereka. Di sini, kamu bisa mengetahui dan bertanya tentang mengapa suatu teknologi lebih disarankan daripada yang lain, bagaimana strategi membangun portofolio yang menarik, hingga alasan pentingnya networking dalam dunia web development. Kami percaya bahwa dengan memahami "mengapa", kamu bisa mengambil keputusan yang lebih cerdas dan efektif untuk perkembangan kariermu.
-              </p>
-              <p class="why-description">
-                Di komunitas ini, kamu juga bisa berdiskusi dengan sesama developer dan mentor berpengalaman untuk mendapatkan perspektif baru. Tidak hanya sekadar berbagi template portofolio, tetapi juga membangun jaringan yang dapat membuka peluang kerja dan kolaborasi bisnis.
-              </p>
+            <div class="why-title">
+                <h2>WHY</h2>
             </div>
-            <div class="why-image">
-              <img src="img/why.jpeg" alt="Junior Web Developer" />
+            <div class="why-content">
+                <div class="why-text">
+                    <h2>Junior Web Developer</h2>
+                    <p>Ini adalah ruang diskusi bagi para junior web developer yang ingin memahami alasan di balik setiap langkah dalam perjalanan mereka. Di sini, kamu bisa mengetahui dan bertanya tentang mengapa suatu teknologi lebih disarankan daripada yang lain, bagaimana strategi membangun portofolio yang menarik, hingga alasan pentingnya networking dalam dunia web development.</p>
+                    <p>Kami percaya bahwa dengan memahami "mengapa", kamu bisa mengambil keputusan yang lebih cerdas dan efektif untuk perkembangan kariermu.</p>
+                    <p>Di komunitas ini, kamu juga bisa berdiskusi dengan sesama developer dan mentor berpengalaman untuk mendapatkan perspektif baru. Tidak hanya sekadar berbagi template portofolio, tetapi juga membangun jaringan yang dapat membuka peluang kerja dan kolaborasi bisnis.</p>
+                </div>
+                <div class="why-image">
+                    <img src="img/why.jpeg" alt="Why Section Image">
+                </div>
             </div>
-          </div>
         </div>
-      </section>
-  </body>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h1>CONTACT ME</h1>
+            <p class="contact-subtitle">Any Questions? text and follow me on</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:lailikamalia01@gmail.com">lailikamalia01@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <a href="https://wa.me/+6288743510626">+6288743510626</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-instagram"></i>
+                    <a href="https://instagram.com/lailikamaliaa">lailikamaliaa</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-facebook"></i>
+                    <a href="https://facebook.com/lailikamalia">lailikamalia</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <p>&copy; 2025 Laili Kamalia. All Rights Reserved.</p>
+      </div>
+    </footer>
 </html>
