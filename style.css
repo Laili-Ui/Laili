@@ -316,7 +316,8 @@ section {
   gap: 1rem;
 }
 
-.about-title {
+.about-title,
+.value-title {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -419,33 +420,92 @@ section {
 
 /* Value Section Styles */
 .value {
-  padding: 6rem 2rem;
+  padding: 80px 0;
   background-color: var(--background-color);
 }
 
 .value-container {
   max-width: 1200px;
   margin: 0 auto;
-  position: relative;
-  padding-top: 1rem;
+  padding: 0 20px;
 }
 
 .value-title {
-  background-color: var(--primary-color);
-  color: white;
-  font-size: 2rem;
-  padding: 0.8rem 2.5rem;
-  border-radius: 30px;
-  position: absolute;
-  right: 0;
-  top: -1rem;
+  margin-left: 60vh;
+  margin-top: 30px;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: var(--background-color);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 
 .value-content {
-  margin-top: 2rem; /* Reduced from 4rem */
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.value-box {
+  flex: 1;
+  background: var(--secondary-color);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.value-box h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.value-box p {
+  color: var(--background-color);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.value-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.value-box ul li {
+  color: var(--background-color);
+  margin-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.value-box ul li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .value-content {
+    flex-direction: column;
+  }
+
+  .value-box {
+    margin-bottom: 20px;
+  }
+
+  .value-title {
+    font-size: 2rem;
+  }
 }
 
 .vision-section h2,
